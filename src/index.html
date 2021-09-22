@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <header><img src="Imagenes/logofinalnaranjo2.png" id="DICODE"></header>
-      
-      <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Contacto</a>
-      </nav>
 
-      <h1>Codificador y Decodificador de Diagnósticos Médicos</h1>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-      <section><p><b>Consideraciones</b><br>
+<body>
+  <div id="root">
+    <header><img src="Imagenes/logofinalnaranjo2.png" id="DICODE"></header>
+
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Nosotros</a>
+      <a href="#">Contacto</a>
+    </nav>
+
+    <h1>Codificador y Decodificador de Diagnósticos Médicos</h1>
+
+    <section>
+      <p><b>Consideraciones</b><br>
         Estimado Usuario: Los resultados entregados a través de este
         servicio de encriptación corresponden <i>exclusivamente</i> a exámenes imagenológicos con
         diagnósticos críticos o de acuerdo a tus necesidades, con el fin de resguardar tu seguridad y la
-        confidencialidad de la información.</p></section>
+        confidencialidad de la información.</p>
+    </section>
+    <div>
+      <p>Primero debe escoger su número secreto</p>
       <div>
-        <p>Primero debe escoger su número secreto</p>
-      <div>
 
-        <input type ="number" id = "offset" min="0" max="100">
+        <input type="number" id="offset" min="0" max="100">
       </div>
-        <p>Escriba aquí el diagnóstico</p>
-        <textarea id="boxText1" class="textBox1" rows="4" cols="70"></textarea>
+      <p>Escriba aquí el diagnóstico</p>
+      <textarea id="boxText1" class="textBox1" rows="4" cols="70"></textarea>
 
-        <br>
-        <button id="cifrar" class="boton1">Cifrar</button>
-        <button id="descifrar" class="boton2">Descifrar</button>
-        <p>Aquí está su diagnóstico cifrado o descifrado</p>
-        <textarea id="boxText2" class="textBox2" rows="4" cols="70"></textarea>
-      </div>
-
-      <footer>Todos los derechos de DICODE son de carácter reservados.Para más información síguenos en nuestras redes sociales.</footer>
+      <br>
+      <button id="cifrar" class="boton1">Cifrar</button>
+      <button id="descifrar" class="boton2">Descifrar</button>
+      <p>Aquí está su diagnóstico cifrado o descifrado</p>
+      <textarea id="boxText2" class="textBox2" rows="4" cols="70"></textarea>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+    <footer>Todos los derechos de DICODE son de carácter reservados.Para más información síguenos en nuestras redes
+      sociales.</footer>
+  </div>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

@@ -26,7 +26,7 @@ A continuación, se mostrará el diseño inicial que tuvo esta página Web, el c
 
 Al comienzo, se pensó en que la págna web tendría 3 páginas en total, una principal y dos extras que cifraban y descifraban el mensaje. 
 
-  * [Diseño Inicial Página 1](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
+  * [Diseño Inicial Página 1](https://github.com/Fritza02/SCL018-cipher/blob/developer/maquetaproyecto/cambioslogos.jpg)
   * [Diseño Inicial Página 2](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
   * [Diseño Inicial Página 3](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
   * [Diseño Inicial en papel y lápiz](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
