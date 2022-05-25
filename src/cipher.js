@@ -1,3 +1,4 @@
+//este es un comentario para subir mi proyecto a github
 const cipher = {
 
     encode: function(desplazamiento,message1) {
@@ -8,7 +9,7 @@ const cipher = {
     let mensEncod = "";
 
       for(let i=0; i<message1.length; i++) {
-      
+
         let numAcsii = message1.charCodeAt(i);
         if(numAcsii>=65 && numAcsii<=90){
           let newPosition = (numAcsii - 65 + desplazamiento)%26 + 65; //posición de las nuevas letras ya codificadas
@@ -33,18 +34,18 @@ const cipher = {
       }
 
         let mensDecod = "";
-        
+
     for(let i=0; i<message1.length; i++) {
-          
-        let numAcsii = message1.charCodeAt(i); 
+
+        let numAcsii = message1.charCodeAt(i);
         if(numAcsii>=65 && numAcsii<=90){
-          
+
           let parenthesis = numAcsii-65-desplazamiento;
 
         while(parenthesis<0){
         parenthesis=parenthesis%26 +26;
             }
-        let newPosition = parenthesis%26 + 65; 
+        let newPosition = parenthesis%26 + 65;
         mensDecod += String.fromCharCode(newPosition);
         }
         else if (numAcsii===209){
@@ -55,7 +56,7 @@ const cipher = {
         else{
           mensDecod += String.fromCharCode(numAcsii);
         }
-        
+
         }
       return mensDecod;
       }
